@@ -1,0 +1,33 @@
+version: '3.1'
+services: #specifies 2 microservices
+  db:
+    image: mysql:8 # Expose a mysql image
+    ports: ["3308:3306"] # Expose port 3306
+    hostname: db # db hostname
+    environment: 
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=hoteldb
+        - MYSQL_USER=hoteldbuser
+        - MYSQL_PASSWORD=tanvi
+        - MYSQL_TCP_PORT=3308
+    container_name: db
+    volumes:
+      - ./sql_scripts/Dump.sql:/docker-entrypoint-initdb.d/Dump.sql
+  web: 
+    build: .
+    image: hbs-web
+    ports: ["8080:8080"] 
+    hostname: web
+    tty: true
+    depends_on:
+      - db
+    links: # used for referring the host name in Java program
+      - db 
+    container_name: hbswebapp-container
+    environment: 
+#       - URL = jdbc:mysql://db:3307/hoteldb?autoReconnet=true&useSSL=false
+       - DOMAIN=db
+       - DB_PORT=3308
+       - DB_USER=hoteldbuser
+       - DB_PASSWORD=tanvi
+       - DATABASE=hoteldb

@@ -1,0 +1,310 @@
+2023-03-30 22:09:59 INFO  CustomerController:39 - Inside CustomerController - getListofCustomers()
+2023-03-30 22:09:59 INFO  CustomerController:44 - Inside CustomerController - getListofCustomers() []
+2023-03-30 22:10:00 INFO  CustomerController:39 - Inside CustomerController - getListofCustomers()
+2023-03-30 22:10:00 INFO  CustomerController:44 - Inside CustomerController - getListofCustomers() [CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null], CustomerDTO [customer_id=102, customer_name=Mary, customer_address=Mumbai, customer_phone=9876543210, customer_email=mary@gmail.com, preferences=Sea View Room, special_needs=Early check in]]
+2023-03-30 22:10:00 INFO  CustomerController:56 - Inside CustomerController - addNewCustomer()
+2023-03-30 22:10:00 INFO  CustomerController:58 - Printing customer object in the CustomerController addNewCustomer(): Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:64 - Printing customer object in the CustomerController addNewCustomer(): false
+2023-03-30 22:10:00 INFO  CustomerController:89 - Inside CustomerController - editCustomer() 301 Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:100 - Inside CustomerController - editCustomer() edited: true
+2023-03-30 22:10:00 INFO  CustomerController:39 - Inside CustomerController - getListofCustomers()
+2023-03-30 22:10:00 INFO  CustomerController:44 - Inside CustomerController - getListofCustomers() [CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null], CustomerDTO [customer_id=102, customer_name=Mary, customer_address=Mumbai, customer_phone=9876543210, customer_email=mary@gmail.com, preferences=Sea View Room, special_needs=Early check in]]
+2023-03-30 22:10:00 INFO  CustomerController:74 - Inside CustomerController - getOneCustomer()
+2023-03-30 22:10:00 INFO  CustomerController:79 - Inside CustomerController - getOneCustomer() Customer object : CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:74 - Inside CustomerController - getOneCustomer()
+2023-03-30 22:10:00 INFO  CustomerController:79 - Inside CustomerController - getOneCustomer() Customer object : CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:39 - Inside CustomerController - getListofCustomers()
+2023-03-30 22:10:00 INFO  CustomerController:44 - Inside CustomerController - getListofCustomers() [CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null], CustomerDTO [customer_id=102, customer_name=Mary, customer_address=Mumbai, customer_phone=9876543210, customer_email=mary@gmail.com, preferences=Sea View Room, special_needs=Early check in]]
+2023-03-30 22:10:00 INFO  CustomerController:56 - Inside CustomerController - addNewCustomer()
+2023-03-30 22:10:00 INFO  CustomerController:58 - Printing customer object in the CustomerController addNewCustomer(): Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:64 - Printing customer object in the CustomerController addNewCustomer(): true
+2023-03-30 22:10:00 INFO  CustomerController:74 - Inside CustomerController - getOneCustomer()
+2023-03-30 22:10:00 INFO  CustomerController:79 - Inside CustomerController - getOneCustomer() Customer object : CustomerDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:89 - Inside CustomerController - editCustomer() 301 Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:00 INFO  CustomerController:100 - Inside CustomerController - editCustomer() edited: true
+2023-03-30 22:10:00 INFO  HotelController:91 - Inside HotelController - getOneHotel()
+2023-03-30 22:10:00 INFO  HotelController:96 - Inside HotelController - getOneHotel() Hotel object : HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:00 INFO  HotelController:128 - Inside HotelController - deleteOneHotel() Hotel ID: 101
+2023-03-30 22:10:00 INFO  HotelController:137 - Inside HotelController - deleteOneHotel() Status: true
+2023-03-30 22:10:00 INFO  HotelController:165 - Inside HotelController - getCustomersOfOneHotel() , hotel id: 0
+2023-03-30 22:10:00 INFO  HotelController:165 - Inside HotelController - getCustomersOfOneHotel() , hotel id: 0
+2023-03-30 22:10:00 INFO  HotelController:91 - Inside HotelController - getOneHotel()
+2023-03-30 22:10:00 INFO  HotelController:96 - Inside HotelController - getOneHotel() Hotel object : HotelInformationDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:00 INFO  HotelController:71 - Inside HotelController - addNewHotel()
+2023-03-30 22:10:00 INFO  HotelController:73 - Printing hotel object in the HotelController addNewHotel(): Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:00 INFO  HotelController:80 - Printing hotel object in the HotelController addNewHotel() Status String: true
+2023-03-30 22:10:00 INFO  HotelController:41 - Inside HotelController - getListofHotels()
+2023-03-30 22:10:00 INFO  HotelController:43 - Inside HotelController - getListofHotels() HotelName Outside IFnull
+2023-03-30 22:10:00 INFO  HotelController:60 - Inside HotelController - getListofHotels() hotelDTO [HotelDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true], HotelDTO [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]]
+2023-03-30 22:10:00 INFO  HotelController:71 - Inside HotelController - addNewHotel()
+2023-03-30 22:10:00 INFO  HotelController:73 - Printing hotel object in the HotelController addNewHotel(): Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:00 INFO  HotelController:80 - Printing hotel object in the HotelController addNewHotel() Status String: true
+2023-03-30 22:10:01 INFO  HotelController:41 - Inside HotelController - getListofHotels()
+2023-03-30 22:10:01 INFO  HotelController:43 - Inside HotelController - getListofHotels() HotelName Outside IFnull
+2023-03-30 22:10:01 INFO  HotelController:60 - Inside HotelController - getListofHotels() hotelDTO []
+2023-03-30 22:10:01 INFO  HotelController:41 - Inside HotelController - getListofHotels()
+2023-03-30 22:10:01 INFO  HotelController:43 - Inside HotelController - getListofHotels() HotelName Outside IFnull
+2023-03-30 22:10:01 INFO  HotelController:60 - Inside HotelController - getListofHotels() hotelDTO [HotelDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true], HotelDTO [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]]
+2023-03-30 22:10:01 INFO  HotelController:106 - Inside HotelController - editNewHotel() 101 Hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:01 INFO  HotelController:118 - Inside HotelController - editNewHotel() Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true] true
+2023-03-30 22:10:01 INFO  HotelController:91 - Inside HotelController - getOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:96 - Inside HotelController - getOneHotel() Hotel object : HotelInformationDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:01 INFO  HotelController:149 - Inside HotelController - getOneCustomerOfOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:154 - Inside HotelController - getOneCustomerOfOneHotel() CustomerInformationDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:01 INFO  HotelController:128 - Inside HotelController - deleteOneHotel() Hotel ID: 101
+2023-03-30 22:10:01 INFO  HotelController:137 - Inside HotelController - deleteOneHotel() Status: false
+2023-03-30 22:10:01 INFO  HotelController:165 - Inside HotelController - getCustomersOfOneHotel() , hotel id: 0
+2023-03-30 22:10:01 INFO  HotelController:41 - Inside HotelController - getListofHotels()
+2023-03-30 22:10:01 INFO  HotelController:43 - Inside HotelController - getListofHotels() HotelName Outside IFnull
+2023-03-30 22:10:01 INFO  HotelController:60 - Inside HotelController - getListofHotels() hotelDTO [HotelDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true], HotelDTO [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]]
+2023-03-30 22:10:01 INFO  HotelController:149 - Inside HotelController - getOneCustomerOfOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:154 - Inside HotelController - getOneCustomerOfOneHotel() CustomerInformationDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:01 INFO  HotelController:149 - Inside HotelController - getOneCustomerOfOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:154 - Inside HotelController - getOneCustomerOfOneHotel() CustomerInformationDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:01 INFO  HotelController:149 - Inside HotelController - getOneCustomerOfOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:154 - Inside HotelController - getOneCustomerOfOneHotel() CustomerInformationDTO [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:01 INFO  HotelController:106 - Inside HotelController - editNewHotel() 101 Hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:01 INFO  HotelController:118 - Inside HotelController - editNewHotel() Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true] true
+2023-03-30 22:10:01 INFO  HotelController:165 - Inside HotelController - getCustomersOfOneHotel() , hotel id: 0
+2023-03-30 22:10:01 INFO  HotelController:91 - Inside HotelController - getOneHotel()
+2023-03-30 22:10:01 INFO  HotelController:96 - Inside HotelController - getOneHotel() Hotel object : HotelInformationDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:115 - Inside addNewCustomer in CustomerDAO null
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 312
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 312
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:181 - Inside CustomerDAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:187 - Inside CustomerDAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:134 - Inside editACustomer in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:150 - Inside CustomerDAO editACustomer Customer [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=johnupdated@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:181 - Inside CustomerDAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:187 - Inside CustomerDAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:181 - Inside CustomerDAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:187 - Inside CustomerDAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:115 - Inside addNewCustomer in CustomerDAO Customer [customer_id=0, customer_name=Johnson, customer_address=null, customer_phone=null, customer_email=null, preferences=null, special_needs=null]
+2023-03-30 22:10:05 INFO  CustomerDAOImpl:46 - Inside getAllCustomers() in CustomerDAO
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 302
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 303
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 304
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 305
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:105 - Inside getAllCustomers() in CustomerDAO [[Ljava.lang.Object;@3cf55e0c, [Ljava.lang.Object;@ee96866, [Ljava.lang.Object;@4c04216f, [Ljava.lang.Object;@987a0bb, [Ljava.lang.Object;@1f949ab9]
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 303
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 303
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:46 - Inside getAllCustomers() in CustomerDAO
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 302
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 303
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 304
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:73 - Inside CustomerService getAllCustomers 305
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:105 - Inside getAllCustomers() in CustomerDAO [[Ljava.lang.Object;@7272ee51, [Ljava.lang.Object;@1b409a79, [Ljava.lang.Object;@5940b14e, [Ljava.lang.Object;@1cba0321, [Ljava.lang.Object;@795f6681]
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:181 - Inside CustomerDAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:187 - Inside CustomerDAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:134 - Inside editACustomer in CustomerDAO 350
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:163 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:171 - Inside getCustomerInformation in CustomerDAO 301
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:181 - Inside CustomerDAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:187 - Inside CustomerDAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:115 - Inside addNewCustomer in CustomerDAO Customer [customer_id=301, customer_name=null, customer_address=null, customer_phone=null, customer_email=null, preferences=null, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerDAOImpl:115 - Inside addNewCustomer in CustomerDAO Customer [customer_id=0, customer_name=Johnson, customer_address=null, customer_phone=null, customer_email=null, preferences=null, special_needs=null]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:53 - Inside getAllHotels() in DAO with arguments HOTEL_NAME : 
+2023-03-30 22:10:06 INFO  HotelDAOImpl:79 - Inside getAllHotels() in DAO Query Hotel: org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter@28367da7
+2023-03-30 22:10:06 INFO  HotelDAOImpl:82 - Inside getAllHotels() in DAO :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543212, hotel_rating=4, hotel_email=hyatt@hyatt.com, pet_friendly=false], Hotel [hotel_id=103, hotel_name=Leela, hotel_location=Mumbai, hotel_phone=9876543202, hotel_rating=5, hotel_email=leela@leela.com, pet_friendly=true], Hotel [hotel_id=104, hotel_name=Oberio, hotel_location=Mumbai, hotel_phone=9874562130, hotel_rating=5, hotel_email=oberio@oberio.com, pet_friendly=false], Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 111
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: null
+2023-03-30 22:10:06 INFO  HotelDAOImpl:101 - Inside HotelDAO addNewHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:106 - Printing hotel object in the HotelDAO addNewHotel()Hotel [hotel_id=0, hotel_name=Grand Hyatt, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false] false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:203 - Inside HotelDAO getCustomerInformation(), hotel id: 105 customer id: 310
+2023-03-30 22:10:06 INFO  HotelDAOImpl:211 - Inside getCustomerInformation DAO, customer object: null
+2023-03-30 22:10:06 INFO  HotelDAOImpl:239 - Inside HotelDAO getCustomersOfAHotel(), hotel id: 112
+2023-03-30 22:10:06 INFO  HotelDAOImpl:272 - Inside HotelDAO getCustomersOfAHotel() Query Customer: select generatedAlias0 from Customer as generatedAlias0 inner join generatedAlias0.hotels as generatedAlias1 inner join generatedAlias1.hotel as generatedAlias2 where generatedAlias2.hotel_id=112
+2023-03-30 22:10:06 INFO  HotelDAOImpl:275 - Inside HotelDAO getCustomersOfAHotel() CustomerList: []
+2023-03-30 22:10:06 INFO  HotelDAOImpl:203 - Inside HotelDAO getCustomerInformation(), hotel id: 101 customer id: 301
+2023-03-30 22:10:06 INFO  HotelDAOImpl:211 - Inside getCustomerInformation DAO, customer object: Customer [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:221 - Inside DAO getCustomerInformation() Booking id: 501
+2023-03-30 22:10:06 INFO  HotelDAOImpl:227 - Inside DAO getCustomerInformation() Bill id: 701
+2023-03-30 22:10:06 INFO  HotelDAOImpl:53 - Inside getAllHotels() in DAO with arguments HOTEL_NAME : 
+2023-03-30 22:10:06 INFO  HotelDAOImpl:79 - Inside getAllHotels() in DAO Query Hotel: org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter@43588265
+2023-03-30 22:10:06 INFO  HotelDAOImpl:82 - Inside getAllHotels() in DAO :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543212, hotel_rating=4, hotel_email=hyatt@hyatt.com, pet_friendly=false], Hotel [hotel_id=103, hotel_name=Leela, hotel_location=Mumbai, hotel_phone=9876543202, hotel_rating=5, hotel_email=leela@leela.com, pet_friendly=true], Hotel [hotel_id=104, hotel_name=Oberio, hotel_location=Mumbai, hotel_phone=9874562130, hotel_rating=5, hotel_email=oberio@oberio.com, pet_friendly=false], Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:203 - Inside HotelDAO getCustomerInformation(), hotel id: 101 customer id: 301
+2023-03-30 22:10:06 INFO  HotelDAOImpl:211 - Inside getCustomerInformation DAO, customer object: Customer [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:239 - Inside HotelDAO getCustomersOfAHotel(), hotel id: 101
+2023-03-30 22:10:06 INFO  HotelDAOImpl:272 - Inside HotelDAO getCustomersOfAHotel() Query Customer: select generatedAlias0 from Customer as generatedAlias0 inner join generatedAlias0.hotels as generatedAlias1 inner join generatedAlias1.hotel as generatedAlias2 where generatedAlias2.hotel_id=101
+2023-03-30 22:10:06 INFO  HotelDAOImpl:275 - Inside HotelDAO getCustomersOfAHotel() CustomerList: [Customer [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null], Customer [customer_id=302, customer_name=Mary, customer_address=Bangalore, customer_phone=9876543212, customer_email=mary@gmail.com, preferences=null, special_needs=wheelchair], Customer [customer_id=303, customer_name=Emily, customer_address=Nainital, customer_phone=9876543540, customer_email=emily@gmail.com, preferences=King Size Bed, special_needs=null], Customer [customer_id=305, customer_name=Lily, customer_address=Dehradun, customer_phone=9876543222, customer_email=lily@gmail.com, preferences=null, special_needs=null]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:152 - Inside HotelDAO deleteAHotel()105
+2023-03-30 22:10:06 INFO  HotelDAOImpl:162 - Inside HotelDAO deleteAHotel() before deleting Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true] false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:177 - Inside HotelDAO deleteAHotel() after deleting Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true] true
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 105
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: null
+2023-03-30 22:10:06 INFO  HotelDAOImpl:152 - Inside HotelDAO deleteAHotel()150
+2023-03-30 22:10:06 INFO  HotelDAOImpl:162 - Inside HotelDAO deleteAHotel() before deleting null false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 101
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:101 - Inside HotelDAO addNewHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:106 - Printing hotel object in the HotelDAO addNewHotel()null false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:101 - Inside HotelDAO addNewHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:106 - Printing hotel object in the HotelDAO addNewHotel()Hotel [hotel_id=0, hotel_name=Grand Hyatt, hotel_location=Pune, hotel_phone=8974561230, hotel_rating=4, hotel_email=grandhyatt@gmail.com, pet_friendly=false] false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:114 - Printing hotel object in the HotelDAO addNewHotel() After PersistingHotel [hotel_id=106, hotel_name=Grand Hyatt, hotel_location=Pune, hotel_phone=8974561230, hotel_rating=4, hotel_email=grandhyatt@gmail.com, pet_friendly=false] true
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 106
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: Hotel [hotel_id=106, hotel_name=Grand Hyatt, hotel_location=Pune, hotel_phone=8974561230, hotel_rating=4, hotel_email=grandhyatt@gmail.com, pet_friendly=false]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:53 - Inside getAllHotels() in DAO with arguments HOTEL_NAME : T
+2023-03-30 22:10:06 INFO  HotelDAOImpl:79 - Inside getAllHotels() in DAO Query Hotel: org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter@7493d937
+2023-03-30 22:10:06 INFO  HotelDAOImpl:82 - Inside getAllHotels() in DAO :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543212, hotel_rating=4, hotel_email=hyatt@hyatt.com, pet_friendly=false], Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:101 - Inside HotelDAO addNewHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:106 - Printing hotel object in the HotelDAO addNewHotel()Hotel [hotel_id=102, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false] false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:239 - Inside HotelDAO getCustomersOfAHotel(), hotel id: 101
+2023-03-30 22:10:06 INFO  HotelDAOImpl:272 - Inside HotelDAO getCustomersOfAHotel() Query Customer: select generatedAlias0 from Customer as generatedAlias0 inner join generatedAlias0.hotels as generatedAlias1 inner join generatedAlias1.hotel as generatedAlias2 where generatedAlias2.hotel_id=101
+2023-03-30 22:10:06 INFO  HotelDAOImpl:275 - Inside HotelDAO getCustomersOfAHotel() CustomerList: [Customer [customer_id=301, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null], Customer [customer_id=302, customer_name=Mary, customer_address=Bangalore, customer_phone=9876543212, customer_email=mary@gmail.com, preferences=null, special_needs=wheelchair], Customer [customer_id=303, customer_name=Emily, customer_address=Nainital, customer_phone=9876543540, customer_email=emily@gmail.com, preferences=King Size Bed, special_needs=null], Customer [customer_id=305, customer_name=Lily, customer_address=Dehradun, customer_phone=9876543222, customer_email=lily@gmail.com, preferences=null, special_needs=null]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 115
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: null
+2023-03-30 22:10:06 INFO  HotelDAOImpl:101 - Inside HotelDAO addNewHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:106 - Printing hotel object in the HotelDAO addNewHotel()Hotel [hotel_id=0, hotel_name=Grand Hyatt, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false] false
+2023-03-30 22:10:06 INFO  HotelDAOImpl:114 - Printing hotel object in the HotelDAO addNewHotel() After PersistingHotel [hotel_id=107, hotel_name=Grand Hyatt, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false] true
+2023-03-30 22:10:06 INFO  HotelDAOImpl:53 - Inside getAllHotels() in DAO with arguments HOTEL_NAME : T
+2023-03-30 22:10:06 INFO  HotelDAOImpl:79 - Inside getAllHotels() in DAO Query Hotel: org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter@5f883d90
+2023-03-30 22:10:06 INFO  HotelDAOImpl:82 - Inside getAllHotels() in DAO :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543212, hotel_rating=4, hotel_email=hyatt@hyatt.com, pet_friendly=false], Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true]]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 110
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: null
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 103
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: Hotel [hotel_id=103, hotel_name=Leela, hotel_location=Mumbai, hotel_phone=9876543202, hotel_rating=5, hotel_email=leela@leela.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:124 - Inside HotelDAO editAHotel()
+2023-03-30 22:10:06 INFO  HotelDAOImpl:140 - Hotel in editAHotel() DAO: Hotel [hotel_id=103, hotel_name=Leela Palace, hotel_location=Mumbai, hotel_phone=9876543202, hotel_rating=5, hotel_email=leela@leela.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:185 - Inside HotelDAO getHotelInformation(): 103
+2023-03-30 22:10:06 INFO  HotelDAOImpl:193 - Inside getHotelInformation DAO, hotel object: Hotel [hotel_id=103, hotel_name=Leela Palace, hotel_location=Mumbai, hotel_phone=9876543202, hotel_rating=5, hotel_email=leela@leela.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelDAOImpl:152 - Inside HotelDAO deleteAHotel()105
+2023-03-30 22:10:06 INFO  HotelDAOImpl:162 - Inside HotelDAO deleteAHotel() before deleting Hotel [hotel_id=105, hotel_name=Taj Mahal, hotel_location=Agra, hotel_phone=9876543210, hotel_rating=5, hotel_email=tajmahal@taj.com, pet_friendly=true] false
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:57 - Inside Customer Service editACustomer() 301 Customer [customer_id=0, customer_name=Johnson, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:66 - Inside Customer Service getCustomerInformation() 301
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:112 - Inside Customer Service getCustomerInformation() CustomerDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:66 - Inside Customer Service getCustomerInformation() 301
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:112 - Inside Customer Service getCustomerInformation() CustomerDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:34 - Inside Customer Service getAllCustomers()
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:47 - Inside Customer Service addNewCustomer() Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null] Boolean: true
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:34 - Inside Customer Service getAllCustomers()
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:57 - Inside Customer Service editACustomer() 301 Customer [customer_id=0, customer_name=Johnson, customer_address=null, customer_phone=null, customer_email=null, preferences=null, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:66 - Inside Customer Service getCustomerInformation() 301
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:112 - Inside Customer Service getCustomerInformation() CustomerDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:47 - Inside Customer Service addNewCustomer() Customer [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null] Boolean: false
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:34 - Inside Customer Service getAllCustomers()
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:66 - Inside Customer Service getCustomerInformation() 301
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:112 - Inside Customer Service getCustomerInformation() CustomerDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  CustomerServiceImpl:66 - Inside Customer Service getCustomerInformation() 310
+2023-03-30 22:10:06 INFO  HotelServiceImpl:56 - Inside Hotel Service getAllHotels() :[]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:86 - Inside Hotel Service addNewHotel(): Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:204 - Inside Hotel Service editAHotel()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:276 - Inside Hotel Service getCustomersOfAHotel()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:303 - Inside Hotel Service getCustomersOfAHotel() customerDTO: []
+2023-03-30 22:10:06 INFO  HotelServiceImpl:204 - Inside Hotel Service editAHotel()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:215 - Inside Hotel Service getCustomerInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:245 - Inside Hotel Service getCustomerInformation() bookingIdsList: [501, 502]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=701, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=702, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:259 - Inside Hotel Service getCustomerInformation() billIdsList: [701, 702]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:265 - Inside Hotel Service getCustomerInformation() customerInfoDTO: CustomerInformationDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:56 - Inside Hotel Service getAllHotels() :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:63 - Inside Hotel Service getAllHotels() hotelDto before :HotelDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:74 - Inside Hotel Service getAllHotels() hotelDto after :HotelDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=5, hotel_email=taj@taj.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:63 - Inside Hotel Service getAllHotels() hotelDto before :HotelDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:74 - Inside Hotel Service getAllHotels() hotelDto after :HotelDTO [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:06 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:06 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:56 - Inside Hotel Service getAllHotels() :[Hotel [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true], Hotel [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true], Hotel [hotel_id=103, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543210, hotel_rating=4, hotel_email=hyatt@gmail.com, pet_friendly=true]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:63 - Inside Hotel Service getAllHotels() hotelDto before :HotelDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:74 - Inside Hotel Service getAllHotels() hotelDto after :HotelDTO [hotel_id=101, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:63 - Inside Hotel Service getAllHotels() hotelDto before :HotelDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:74 - Inside Hotel Service getAllHotels() hotelDto after :HotelDTO [hotel_id=102, hotel_name=Taj Mahal, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=tajmahal@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:63 - Inside Hotel Service getAllHotels() hotelDto before :HotelDTO [hotel_id=0, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:74 - Inside Hotel Service getAllHotels() hotelDto after :HotelDTO [hotel_id=103, hotel_name=Hyatt, hotel_location=Bangalore, hotel_phone=9876543210, hotel_rating=4, hotel_email=hyatt@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:276 - Inside Hotel Service getCustomersOfAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:303 - Inside Hotel Service getCustomersOfAHotel() customerDTO: [com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@d1c5cf2, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@7e0986c9, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@1377b1a0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:194 - Inside Hotel Service deleteAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:194 - Inside Hotel Service deleteAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:276 - Inside Hotel Service getCustomersOfAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:303 - Inside Hotel Service getCustomersOfAHotel() customerDTO: [com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@38f502fc, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@67c21bf, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@67afe909, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@79f1e22e]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:215 - Inside Hotel Service getCustomerInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:245 - Inside Hotel Service getCustomerInformation() bookingIdsList: [501, 502]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=701, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=702, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:259 - Inside Hotel Service getCustomerInformation() billIdsList: [701, 702]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:265 - Inside Hotel Service getCustomerInformation() customerInfoDTO: CustomerInformationDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:276 - Inside Hotel Service getCustomersOfAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:301 - Inside Hotel Service getCustomersOfAHotel() customer hotels: null
+2023-03-30 22:10:07 INFO  HotelServiceImpl:303 - Inside Hotel Service getCustomersOfAHotel() customerDTO: [com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@74c7522c, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@77c23d90, com.entlogics.hotelbookingsystem_jpa.dto.HotelCustomerDTO@6d17914a]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:215 - Inside Hotel Service getCustomerInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:245 - Inside Hotel Service getCustomerInformation() bookingIdsList: [501, 502, 503]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=503, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=701, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=503, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=702, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:254 - Inside Hotel Service getCustomerInformation() bookings: [Booking [booking_id=501, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=502, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null], Booking [booking_id=503, booking_dateTime=null, booking_amt=0.0, check_in_DateTime=null, check_out_DateTime=null, no_of_adults=null, no_of_child=null, booking_status=null]]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:255 - Inside Hotel Service getCustomerInformation() bills: Bill [bill_id=703, bill_number=0, bill_amt=0.0, bill_dateTime=null, discount=null, bill_reward_points=0]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:259 - Inside Hotel Service getCustomerInformation() billIdsList: [701, 702, 703]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:265 - Inside Hotel Service getCustomerInformation() customerInfoDTO: CustomerInformationDTO [customer_id=0, customer_name=John, customer_address=Delhi, customer_phone=9876543810, customer_email=john@gmail.com, preferences=King Size Bed, special_needs=null]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:194 - Inside Hotel Service deleteAHotel()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:215 - Inside Hotel Service getCustomerInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:97 - Inside Hotel Service getHotelInformation()
+2023-03-30 22:10:07 INFO  HotelServiceImpl:102 - Inside Hotel Service getHotelInformation() hotel: Hotel [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:116 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:183 - Inside Hotel Service getHotelInformation() hotelInfoDTO: HotelInformationDTO [hotel_id=0, hotel_name=Taj, hotel_location=Mumbai, hotel_phone=9876543210, hotel_rating=4, hotel_email=taj@gmail.com, pet_friendly=true]
+2023-03-30 22:10:07 INFO  HotelServiceImpl:86 - Inside Hotel Service addNewHotel(): Hotel [hotel_id=101, hotel_name=null, hotel_location=null, hotel_phone=null, hotel_rating=0, hotel_email=null, pet_friendly=false]

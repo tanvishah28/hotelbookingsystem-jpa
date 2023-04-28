@@ -1,0 +1,6 @@
+-- CREATE DATABASE
+CREATE DATABASE  IF NOT EXISTS `hoteldb`;
+
+-- CREATE USER
+CREATE USER 'hoteldbuser'@'%' IDENTIFIED BY 'tanvi';
+GRANT ALL PRIVILEGES ON hoteldb.* TO 'hoteldbuser'@'%';
